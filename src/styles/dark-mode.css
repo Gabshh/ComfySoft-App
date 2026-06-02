@@ -1,0 +1,146 @@
+.dark-mode {
+  --background: #1E1E1E;
+  --card-background: #2A2A2A;
+  --border-color: #3A3A3A;
+  --text-primary: #FFFFFF;
+  --text-secondary: #B0B0B0;
+}
+
+.dark-mode body,
+.dark-mode .bg-white {
+  background-color: #1E1E1E !important;
+}
+
+.dark-mode .text-neutral-800,
+.dark-mode .text-neutral-700 {
+  color: #FFFFFF !important;
+}
+
+.dark-mode .text-neutral-600,
+.dark-mode .text-neutral-500 {
+  color: #B0B0B0 !important;
+}
+
+.dark-mode .border-neutral-200,
+.dark-mode .border-neutral-100 {
+  border-color: #3A3A3A !important;
+}
+
+.dark-mode .bg-neutral-50 {
+  background-color: #2A2A2A !important;
+}
+
+.dark-mode .bg-neutral-100 {
+  background-color: #333333 !important;
+}
+
+.dark-mode .bg-amber-50 {
+  background-color: #2A2520 !important;
+}
+
+/* Change brown colors to yellow in dark mode */
+.dark-mode .text-\[\#3A1D08\],
+.dark-mode .text-\[\#4A2D10\] {
+  color: #FDC300 !important;
+}
+
+.dark-mode .bg-\[\#3A1D08\] {
+  background-color: #FDC300 !important;
+}
+
+.dark-mode .bg-\[\#4A2D10\] {
+  background-color: #D4A500 !important;
+}
+
+.dark-mode .bg-\[\#2A1506\] {
+  background-color: #B38F00 !important;
+}
+
+.dark-mode .border-\[\#3A1D08\] {
+  border-color: #FDC300 !important;
+}
+
+.dark-mode .ring-\[\#3A1D08\] {
+  --tw-ring-color: #FDC300 !important;
+}
+
+/* Update gradient backgrounds in dark mode */
+.dark-mode .from-\[\#3A1D08\] {
+  --tw-gradient-from: #FDC300 var(--tw-gradient-from-position) !important;
+  --tw-gradient-to: rgba(253, 195, 0, 0) var(--tw-gradient-to-position) !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
+}
+
+.dark-mode .to-\[\#2A1506\] {
+  --tw-gradient-to: #B38F00 var(--tw-gradient-to-position) !important;
+}
+
+.dark-mode .hover\:bg-\[\#3A1D08\]:hover {
+  background-color: #FDC300 !important;
+}
+
+.dark-mode .hover\:bg-\[\#2A1506\]:hover {
+  background-color: #B38F00 !important;
+}
+
+/* Keep headers with brown gradient - override the above rules for headers */
+.dark-mode header .bg-\[\#3A1D08\],
+.dark-mode header.bg-\[\#3A1D08\] {
+  background-color: #3A1D08 !important;
+}
+
+.dark-mode header .bg-\[\#4A2D10\],
+.dark-mode header.bg-\[\#4A2D10\] {
+  background-color: #4A2D10 !important;
+}
+
+.dark-mode header .bg-\[\#2A1506\],
+.dark-mode header.bg-\[\#2A1506\] {
+  background-color: #2A1506 !important;
+}
+
+.dark-mode header .from-\[\#3A1D08\],
+.dark-mode header.from-\[\#3A1D08\] {
+  --tw-gradient-from: #3A1D08 var(--tw-gradient-from-position) !important;
+  --tw-gradient-to: rgba(58, 29, 8, 0) var(--tw-gradient-to-position) !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
+}
+
+.dark-mode header .to-\[\#2A1506\],
+.dark-mode header.to-\[\#2A1506\] {
+  --tw-gradient-to: #2A1506 var(--tw-gradient-to-position) !important;
+}
+
+.dark-mode header .bg-gradient-to-br,
+.dark-mode header.bg-gradient-to-br,
+.dark-mode header .bg-gradient-to-r,
+.dark-mode header.bg-gradient-to-r {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)) !important;
+}
+
+/* Card backgrounds in dark mode */
+.dark-mode [class*="bg-white"]:not(.bg-gradient-to) {
+  background-color: #2A2A2A !important;
+}
+
+/* Shadows in dark mode */
+.dark-mode .shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .shadow-xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+/* Input fields in dark mode */
+.dark-mode input::placeholder {
+  color: #666666;
+}
